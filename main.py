@@ -1,7 +1,6 @@
 import webapp2
 import jinja2
 import os
-from models import Meme 
 from google.appengine.api import users
 
 
@@ -40,9 +39,9 @@ class AllMemesHandler(webapp2.RequestHandler):
         
         all_memes_template = the_jinja_env.get_template('templates/all_memes.html')
         self.response.write(all_memes_template.render(the_variable_dict))
-        
-            
-    
+
+
+
 app = webapp2.WSGIApplication([
     ('/', HomeHandler),
     ('/allmemes', AllMemesHandler)
