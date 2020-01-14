@@ -1,2 +1,2 @@
 # SeeFood
-SeeFood is a multi-page webiste that allows users to see images of the food on the menu in each restuarant that is partnership with us. 
+SEEFOOD is a mobile website that helps you SEE pictures of food on the menu, instead of just reading about it. No more risky decisions, bad surprises or disappointments when the food arrives. Know and see your food before you order. Eat with your eyes. 
