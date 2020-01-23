@@ -12,7 +12,6 @@ li, a {
     font-size: 16px;
     color: white;
     text-decoration: none;
-
 }
 
 body {
@@ -78,7 +77,7 @@ button:hover {
 }
 
 #villa_azteca {
-    background-image: url("img/villa-azteca.jpg");
+    background-image: url("../images/villa-azteca.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -150,7 +149,7 @@ button:hover {
 #restaurant-list {
     position: fixed;
     top: 144px; right: 0; bottom: 0; left: 0;
-    background-image: url("img/seefood background image.JPG");
+    background-image: url("../images/seefood background image.JPG");
     background-attachment: fixed;
     background-size: cover;
 }
