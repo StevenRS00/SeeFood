@@ -158,3 +158,41 @@ header {
     right: 250px;
     font-size: 18px;
  }
+ .section{
+    display: block;
+    height: 100%;
+    padding-top: 20px; 
+ }
+ .para{
+    grid-area: header; 
+ }
+ .seefood{
+    grid-area: header;  
+ }
+ .container{
+    display: grid; 
+    grid-template-columns:500px;
+    grid-template-rows: auto; 
+    grid-template-areas: "header header1 header1 header1"; 
+    background-color: white; 
+    font-family: 'Muli', sans-serif;
+ }
+ h1, p{
+    margin: 100px;
+ }
+ p{
+    color: grey;
+    line-height: 1.9;
+    font-size: 1.3em; 
+ }
+ #steps{
+    top: 244px; 
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+    background-color: black; 
+    background-size: cover;
+ }
+ #howto, hr{
+    color: white; 
+ }
