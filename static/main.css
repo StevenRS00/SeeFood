@@ -132,67 +132,84 @@ header {
     text-align: center;
     padding: 20px;
 }
-
-#restaurant-list {
-    position: fixed;
-    top: 144px; right: 0; bottom: 0; left: 0;
-    background-image: url("../images/seefood background image.JPG");
-    background-attachment: fixed;
-    background-size: cover;
-}
 #more{
   position: absolute;
   top: 55px;
   right: 20px;
   font-size: 18px;
- }
- #restaurant{
-  position: absolute;
-  top: 55px;
-  right: 100px;
-  font-size: 18px;
- }
- #home{
+}
+#restaurant{
+    position: absolute;
+    top: 55px;
+    right: 100px;
+    font-size: 18px;
+}
+#home{
     position: absolute;
     top: 55px;
     right: 250px;
     font-size: 18px;
- }
- .section{
+}
+
+/*sets background image*/
+#restaurant-list {
+    top: 144px; right: 0; bottom: 0; left: 0;
+    background-image: url("../images/seefood background image.JPG");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.section{
     display: block;
     height: 100%;
     padding-top: 20px; 
- }
- .para{
-    grid-area: header; 
- }
- .seefood{
-    grid-area: header;  
- }
- .container{
+}
+.container{
     display: grid; 
     grid-template-columns:500px;
     grid-template-rows: auto; 
-    grid-template-areas: "header header1 header1 header1"; 
+    grid-template-areas: 
+    "header header1 header1 header1"; 
     background-color: white; 
     font-family: 'Muli', sans-serif;
- }
- h1, p{
+}
+.seefood{
+    grid-area: header;  
+}
+.para{
+    grid-area: header1; 
+}
+ 
+h1, p{
     margin: 100px;
- }
- p{
+}
+p{
     color: grey;
     line-height: 1.9;
     font-size: 1.3em; 
- }
- #steps{
+}
+#steps{
     top: 244px; 
     right: 0; 
     bottom: 0; 
     left: 0;
     background-color: black; 
     background-size: cover;
- }
- #howto, hr{
-    color: white; 
- }
+}
+#howto{
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+#steps hr{
+    color: white;
+    margin: 0 25% 0 45%;
+}
+#instructionImg{
+     width: 20%;
+     height: 20%;
+     margin: 0 25% 0 40%;
+     padding-top: 50px;
+}
+#steps{
+     background-color: black;
+}
